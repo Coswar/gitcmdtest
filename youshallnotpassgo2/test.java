@@ -12,7 +12,7 @@ public class circlearea {
 		radius = JOptionPane.showInputDialog(null,"Enter the radius of a circle:");
 		numrad = Double.parseDouble(radius);
 		area = (numrad*numrad*3.1416);
-		JOptionPane.showMessageDialog(null,"Circle of the radius " +numrad + " is " + area);
+		JOptionPane.showMessageDialog(null,"Circle of the radius is " +numrad + " is " + area);
 		System.exit(0);
 	}
 
